@@ -8,7 +8,7 @@ Two variants of Dumpy, DumpyFuzzy and Dumpy-Memory that lead to more accurate ap
 This archive is free for use for academic and non-profit purposes, but if you use it, please reference it properly.
 
 # Reference
-
+Zeyu Wang, Qitong Wang, Peng Wang, Themis Palpanas, and Wei Wang. 2023. Dumpy: A Compact and Adaptive Index for Large Data Series Collections. Proc. ACM Manag. Data 1, 1, Article 111 (May 2023), 27 pages. https://doi.org/10.1145/3588965
 
 # Disclaimer
 The code is provided without warranty of any kind. While we thoroughly tested all code bases on Ubuntu 20.04 LTS (Windows Subsystem of Linux), we do not guarantee that they are exempt from bugs, nor that they will work on other platforms. If you encounter any issues with the code, please feel free to propose them on the ISSUE page of this repo. We will do our best to address your concerns but do not promise to resolve all issues.
