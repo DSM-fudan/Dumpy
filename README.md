@@ -48,6 +48,8 @@ To finish your task, please READ and UPDATE config.ini IN DETAIL.
 
 3. SAX table are strongly recommended to be built before building the whole index. It benefits all types of indexes.
 
+4. SIMD techinques are important for DTW distance. But if your machine doesn't support that or you don't want to use this, just comment the compile command on CMakeList.txt `haswell` and all the codes that use AVX2 commands. Note that all SIMD functions in our repo have a corresponding SISD version.
+
 ## Datasets
 
 The datasets we used in the paper (Rand, DNA, ECG, Deep) are now in OneDrive.
