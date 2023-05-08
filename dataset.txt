@@ -1,0 +1,15 @@
+We use one synthetic and three real datasets. All series are z-normalized (i.e., mean=0, stddev=1) before indexing and querying.
+Rand is a synthetic dataset, generated as cumulative sums of random walk steps following a standard Gaussian distribution N(0, 1). It has been extensively used in the existing works. We generate 50-800 million Rand series of length 256 (50GB-800GB).
+DNA is a real dataset collected from DNA sequences of two plants, Allium sativum and Taxus wallichiana. It comprises 26 million data series of length 1024 (∼113GB).
+The second real dataset, ECG (Electrocardiography), is extracted from the MIMIC-III Waveform Database. It contains over 97 million data series of length 320 (∼117GB), sampled at 125Hz from 6146 ICU patients.
+The last real dataset, Deep, comprises 1 billion vectors of size 96, extracted from the last CNN (convolutional neural network) layers of images.
+
+IMPORTANT: When you use these datasets for some commercial or scientific purpose, please cite following the instructions in these websites:
+
+DNA: https://www.ncbi.nlm.nih.gov/
+ECG: https://physionet.org/content/mimic3wdb/1.0/37/3700401/#files-panel
+Deep: http://sites.skoltech.ru/compvision/noimi
+
+
+Link: https://1drv.ms/f/s!AmDUCJRYVI-CnFQgXTR1LNRjLaha?e=KlnxMz
+Password: dumpy-sigmod-2023
