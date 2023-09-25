@@ -9,6 +9,9 @@
 #define dist(x,y) (((x)-(y)*((x)-(y))))
 
 
+// Mihalis Tsoukalos and Nikos Platis
+#include <memory>
+
 using namespace std;
 
 void TimeSeriesUtil::heap_data_copy(vector<PqItemSeries *> &heap){
