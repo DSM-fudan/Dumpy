@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Dumpy"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/wzy/Dumpy/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j20 -f &quot;/home/wzy/Dumpy/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/home/wzy/Dumpy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/home/wzy/Dumpy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/home/wzy/Dumpy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/wzy/Dumpy/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j20 -f &quot;/home/wzy/Dumpy/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/home/wzy/Dumpy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/home/wzy/Dumpy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/home/wzy/Dumpy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/wzy/Dumpy/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j20 -f &quot;/home/wzy/Dumpy/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/home/wzy/Dumpy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/home/wzy/Dumpy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/home/wzy/Dumpy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Dumpy">
+				<Option output="/home/wzy/Dumpy/cmake-build-debug/Dumpy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wzy/Dumpy/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j20 -f &quot;/home/wzy/Dumpy/cmake-build-debug/Makefile&quot;  VERBOSE=1 Dumpy"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/home/wzy/Dumpy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/home/wzy/Dumpy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/home/wzy/Dumpy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Dumpy/fast">
+				<Option output="/home/wzy/Dumpy/cmake-build-debug/Dumpy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wzy/Dumpy/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j20 -f &quot;/home/wzy/Dumpy/cmake-build-debug/Makefile&quot;  VERBOSE=1 Dumpy/fast"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/home/wzy/Dumpy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/home/wzy/Dumpy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/home/wzy/Dumpy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/wzy/Dumpy/include/Const.h">
+			<Option target="Dumpy"/>
+		</Unit>
+		<Unit filename="/home/wzy/Dumpy/include/DataStructures/DumpyNode.h">
+			<Option target="Dumpy"/>
+		</Unit>
+		<Unit filename="/home/wzy/Dumpy/include/DataStructures/GraphConstruction.h">
+			<Option target="Dumpy"/>
+		</Unit>
+		<Unit filename="/home/wzy/Dumpy/include/DataStructures/PqItemSeries.h">
+			<Option target="Dumpy"/>
+		</Unit>
+		<Unit filename="/home/wzy/Dumpy/include/DataStructures/TimeSeries.h">
+			<Option target="Dumpy"/>
+		</Unit>
+		<Unit filename="/home/wzy/Dumpy/include/Searchers/DumpySearcher.h">
+			<Option target="Dumpy"/>
+		</Unit>
+		<Unit filename="/home/wzy/Dumpy/include/Utils/FileUtil.h">
+			<Option target="Dumpy"/>
+		</Unit>
+		<Unit filename="/home/wzy/Dumpy/include/Utils/INIReader.h">
+			<Option target="Dumpy"/>
+		</Unit>
+		<Unit filename="/home/wzy/Dumpy/include/Utils/MathUtil.h">
+			<Option target="Dumpy"/>
+		</Unit>
+		<Unit filename="/home/wzy/Dumpy/include/Utils/SaxUtil.h">
+			<Option target="Dumpy"/>
+		</Unit>
+		<Unit filename="/home/wzy/Dumpy/include/Utils/TimeSeriesUtil.h">
+			<Option target="Dumpy"/>
+		</Unit>
+		<Unit filename="/home/wzy/Dumpy/src/Const.cpp">
+			<Option target="Dumpy"/>
+		</Unit>
+		<Unit filename="/home/wzy/Dumpy/src/IndexConstruction/DumpyFuzzy.cpp">
+			<Option target="Dumpy"/>
+		</Unit>
+		<Unit filename="/home/wzy/Dumpy/src/IndexConstruction/DumpyNode.cpp">
+			<Option target="Dumpy"/>
+		</Unit>
+		<Unit filename="/home/wzy/Dumpy/src/IndexConstruction/GraphConstruction.cpp">
+			<Option target="Dumpy"/>
+		</Unit>
+		<Unit filename="/home/wzy/Dumpy/src/PqItemSeries.cpp">
+			<Option target="Dumpy"/>
+		</Unit>
+		<Unit filename="/home/wzy/Dumpy/src/SearchEngine/DumpySearcher.cpp">
+			<Option target="Dumpy"/>
+		</Unit>
+		<Unit filename="/home/wzy/Dumpy/src/Utils/FileUtil.cpp">
+			<Option target="Dumpy"/>
+		</Unit>
+		<Unit filename="/home/wzy/Dumpy/src/Utils/INIReader.cpp">
+			<Option target="Dumpy"/>
+		</Unit>
+		<Unit filename="/home/wzy/Dumpy/src/Utils/MathUtil.cpp">
+			<Option target="Dumpy"/>
+		</Unit>
+		<Unit filename="/home/wzy/Dumpy/src/Utils/SaxUtil.cpp">
+			<Option target="Dumpy"/>
+		</Unit>
+		<Unit filename="/home/wzy/Dumpy/src/Utils/TimeSeriesUtil.cpp">
+			<Option target="Dumpy"/>
+		</Unit>
+		<Unit filename="/home/wzy/Dumpy/src/Utils/ini.c">
+			<Option target="Dumpy"/>
+		</Unit>
+		<Unit filename="/home/wzy/Dumpy/src/main.cpp">
+			<Option target="Dumpy"/>
+		</Unit>
+		<Unit filename="/home/wzy/Dumpy/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

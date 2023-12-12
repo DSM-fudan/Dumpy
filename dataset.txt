@@ -13,3 +13,10 @@ Deep: http://sites.skoltech.ru/compvision/noimi
 
 Link: https://1drv.ms/f/s!AmDUCJRYVI-CnFQgXTR1LNRjLaha?e=KlnxMz
 Password: dumpy-sigmod-2023
+
+Note: Since the dataset files are very large, we split them into smaller pieces to help users download these files.
+The files are organized in lexicographical order. Before indexing, concatenate these pieces in order to rebuild the dataset.
+You can consider use `cat` command, like `cat file1.bin file2.bin file3.bin > combined.bin`
+`dd` command can also be used for large files.
+
+Feel free to ask me and GPT for help :)
